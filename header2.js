@@ -2,11 +2,16 @@
      
     /* Show and Hide Mobile Menu */
 
- const mobileMenuButton = document.getElementById("mobile-menu-button");
- const mobileMenu = document.getElementById("mobile-menu");
+ const mobileMenuButton = document.querySelector(".mobile-menu-button");
+ const mobileMenu = document.querySelector(".mobile-menu");
  const mobileMenuLinks = document.querySelectorAll(".mobile-nav-a");
  const logo = document.querySelector(".logo");
  const header = document.querySelector(".header");
+
+ 
+ const countriesLink = document.querySelector(".countries-link");
+ const countriesContainer = document.querySelector(".countries-container");
+ 
  
 
  mobileMenuButton.onclick = () => {
@@ -59,5 +64,16 @@
  }
 
  /* End of Show and Hide Mobile Menu */
+
+ countriesLink.onclick = () =>{
+    if (countriesContainer.style.display === "block"){
+    countriesContainer.style.display = "none";
+} 
+else{
+    countriesContainer.style.display = "block";
+}
+}
+
+
 
  }
