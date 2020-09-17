@@ -10,6 +10,7 @@
     <title>Untitled Project</title>
 
     <script src="script.js"></script>
+    <script src="header1.js"></script>
 
     <script src="https://kit.fontawesome.com/cd801faa65.js" crossorigin="anonymous"></script>
 
@@ -33,9 +34,18 @@
 
 
     <nav>
-        <a>Home</a>
+        <a href="index.html">Home</a>
         <a>Countries</a>
-        <a>About us</a>
+        <div class="dropdown-countries">
+        
+            <a href="cameroon.html">Cameroon</a>
+            <a href="congo.html">DR Congo</a>
+            <a href="ghana.html">Ghana</a>
+            <a href="nigeria.html">Nigeria</a>
+        </div>
+
+        <a href="about.html">About us</a>
+
     </nav>
 
     <h3 class="logo">CREPS<br />2 AFRICA</h3>
@@ -46,8 +56,29 @@
         <a>Contact</a>
     </nav>
 
-    <i class="fas fa-bars mobile-menu-button"></i>
+    <i class="fas fa-bars mobile-menu-button" id="mobile-menu-button"></i>
 </header>
+
+<nav class="mobile-menu">
+    <div class="container">
+
+        <a href="index.html" class="mobile-nav-a">Home</a>
+            <a class="mobile-nav-a countries-link">Countries</a>
+
+            <div class="mobile-countries countries-container">
+                <a href="cameroon.html" class="mobile-nav-a">Cameroon</a>
+                    <a href="congo.html" class="mobile-nav-a">DR Congo</a>
+                    <a href="ghana.html" class="mobile-nav-a">Ghana</a>
+                    <a href="nigeria.html" class="mobile-nav-a">Nigeria</a>
+                </div>
+
+            <a href="about.html" class="mobile-nav-a">About</a>
+            <a href="getinvolved.html" class="mobile-nav-a">Get Involved</a>
+            <a href="donate.html" class="mobile-nav-a">Donate</a>
+            <a href="contact.html" class="mobile-nav-a">Contact</a>
+
+    </div>
+</nav>
 
 
 <section class="billboard">
