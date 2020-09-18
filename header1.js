@@ -83,20 +83,9 @@
 
       counterContainer.style.opacity = "1";
 
-      $('.count').each(function () {
-        $(this).prop('Counter',0).animate({
-            Counter: $(this).text()
-        }, {
-            duration: 4000,
-            easing: 'swing',
-            step: function (now) {
-                $(this).text(Math.ceil(now));
-            }
-        });
-    });
-    
-    
-    
+      
+
+
 
 
     }
@@ -114,23 +103,6 @@
 
  
 
-
-
-
-
-
-  
-  console.log("hey");
-
-  /*  const header = document.getElementsByTagName("headser");
-
-    document.body.onscroll = () =>{
-        let Yposition = document.body.scrollTop;
-
-        if (Yposition > 100){
-            header.style.display = "none";
-        }
-    } */
 
 
 
