@@ -41,10 +41,6 @@
 
      else {
 
-      header.style.backgroundColor = "#161616";
-
-      logo.style.color = "white";
-      mobileMenuButton.style.color = "white";
 
          document.body.style.overflow = "hidden";
 
