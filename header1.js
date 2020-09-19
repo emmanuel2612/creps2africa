@@ -1,4 +1,4 @@
- window.onload =()=>{
+window.onload =()=>{
      
     /* Show and Hide Mobile Menu */
 
@@ -82,10 +82,6 @@
     if (document.documentElement.scrollTop > 300) {
 
       counterContainer.style.opacity = "1";
-
-      
-
-
 
 
     }
